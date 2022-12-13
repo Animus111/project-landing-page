@@ -1,3 +1,6 @@
+html {
+  height: 100vh;
+}
 body {
   display: flex;
   flex-flow: column;
@@ -94,6 +97,7 @@ font-weight: 800;
 .cards {
   display:flex;
   gap: 50px;
+  margin-bottom: 50px;
 }
 
 .card img {
@@ -112,4 +116,31 @@ font-weight: 800;
 .card .text{
   margin-top: 8px;
   width: 140px;
+}
+
+.container3 {
+  background-color: #E5E7EB;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container3 .text{
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.quote {
+  display: inline-block;
+  color:#1F2937
+}
+
+.quote .name{
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 600;
 }
