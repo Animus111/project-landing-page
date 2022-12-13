@@ -28,7 +28,7 @@ a {
 }
 
 .header, .container1, .container2, .container3, .container4, .footer {
-  padding: 0 15vw;
+  padding: 0 25vw;
 }
 
 .container1 {
@@ -40,12 +40,7 @@ a {
   padding-bottom: 50px;
 }
 
-.container4 {
-  margin: 75px 20vw;
-  padding: 0 72px;
-  display: flex;
-  align-items: center;
-}
+
 
 .hero {
   padding-bottom: 50px;
@@ -143,4 +138,34 @@ font-weight: 800;
   display: flex;
   justify-content: flex-end;
   font-weight: 600;
+}
+
+.container4 {
+  justify-content: space-around;
+  margin: 75px 25vw;
+  padding: 40px 72px;
+  display: flex;
+  align-items: center;
+  color:
+
+}
+
+.container4 .heading, .container4 .text {
+  margin: 4px;
+}
+
+.container4 .heading, .container4 button{
+  color:#F9FAF8;
+}
+
+.container4 .text {
+  color:#E5E7EB;
+}
+
+.container4 button{
+  background-color:#3882F6;
+  border: 2px solid #F9FAF8;
+  border-radius: 8px;
+  padding: 6px 32px;
+  font-weight: 800;
 }
